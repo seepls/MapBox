@@ -1,0 +1,44 @@
+Manages geospacial data and design custom map styles . Build and design map with exact specification by
+uploading and editing own data and utilizing Mapbox's tilesets .
+- customn fonts and icons 
+- refining built-in template map styles .
+full data management and design control 
+
+digital map - 
+1.geospacial data : tilesets - storage format for roster and vector data 
+2. styling rules : information in JSON doc
+3. display : Mapbox GL to put together the style JSON and tilesets used in style JSON and tilesets used in the style 
+and draw your map 
+
+mapbox tools for converting data to tilesets and creating styles 
+
+create a style : display map using - mapbox GL JS 
+Tilesets [ geographic information ]
+Style- JSON [ instruction for styling ] 
+Sprikes and glyphs[ icons and fonts]
+
+combine above 3 in Mapbox GL
+::: a vector rendering framework for highly customizable and responsive client -side maps
+
+SAMPLE WORKFLOW 
+-upload data as a dataset : with dataset editor 
+- draw and edit data 
+- create a tileset : by exporting your dataset 
+- choose a template style : [Template : pre-designed style that you can tweek ]
+- modify style properties 
+- add layers 
+- publish style 
+copy the html generated in the file to be used 
+
+
+style : JSON Document conforms to the mapbox style specification 
+designed specifically for Mapbox GL JS 
+style controls almost everything for the map 
+- after creating you can keep your style hosted with mapbox or can download JSON object as a doc 
+
+uploaded tileset : upload data directly to map 
+collection of vector/ roster data optimized for rendering and are not editable can be styled in mapbox studio style editor 
+
+1. geospacial data projected to web-mercator 
+2. GeoJSON files validated for proper syntax 
+3. unnecessary properties removed 
