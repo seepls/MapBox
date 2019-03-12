@@ -3,11 +3,11 @@ import {render} from 'react-dom';
 import MapGL, {Marker, Popup, NavigationControl, FullscreenControl} from 'react-map-gl';
 
 import ControlPanel from './control-panel';
-import IncidentHash from './incident-geohash'; //city-pin -> incidentGeohash
-import IncidentInfo from './Incident-info'; // City-Info -> Incident-info
+import IncidentHash from './Incident-geohash'; 
+import IncidentInfo from './Incident-info'; 
 
-import INCIDENTS from '../../data/incident.json'; // CITIES- >INCIDENTS  // data/cities
-
+import INCIDENTS from '../../data/incident.json'; 
+ // added access  token here from the tileset developed on MapBox
 const TOKEN = 'pk.eyJ1Ijoic21yaXRpdGl3YXJpIiwiYSI6ImNqdDQ2MXE4MjB0OG80NGxzdXoxYWVjaGoifQ.QiQvIVVZH0Zm1_PTNSpGUg';  // added my token here 
 
 const fullscreenControlStyle = {
