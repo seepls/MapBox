@@ -1,0 +1,10 @@
+few examples in example: 
+ MapGL, {Marker, Popup, NavigationControl, FullscreenControl} from 'react-map-gl';
+among other controls provided by react-map-gl.
+
+Demonstrates how various control components can be used with react-map-gl.
+need to 
+- npm start 
+- npm install
+
+the  rest of the folder contains customizable code for CrowdAlert-Web building up the background .
