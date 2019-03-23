@@ -1,0 +1,17 @@
+visualization of large data set simple .
+BASIC IDEA:
+render stack of visual overlays, usually over maps.
+idea : -
+react-map-gl - A React wrapper around Mapbox GL which works seamlessly with deck.gl.
+
+get familar with Icon layer
+and its properties
+exploring deck.gl examples
+
+deck.gl : designed on functional UI programming principles .
+know how to minimize updates and redundant calculations
+concept of 'shallow equality'
+'reactive programming paradigm'
+Knowledge of WebGL is only needed if you want to create custom layers in deck.gl
+
+
