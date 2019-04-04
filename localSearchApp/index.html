@@ -32,7 +32,13 @@
     zoom: 12, // Starting zoom level
   });
   var geocoder = new MapboxGeocoder({ // Initialize the geocoder
-  accessToken: mapboxgl.accessToken, // Set the access token
+   accessToken: mapboxgl.accessToken, // Set the access token
+   placeholder: 'Search for places in Berkeley', // Placeholder text for the search bar
+   bbox: [-122.30937, 37.84214, -122.23715, 37.89838],//setting the boundry 
+   proximity: {
+    longitude: -122.25948,
+    latitude: 37.87221
+   } // Cooridnates of location 
   });
 
   // Add the geocoder to the map
