@@ -45,7 +45,7 @@ describe('reverseGeocode', () => {
 });
 
 
-"""
+---
 geocodingClient.reverseGeocode({
   query: [-95.4431142, 33.6875431],
   limit: 2
@@ -55,3 +55,6 @@ geocodingClient.reverseGeocode({
     // GeoJSON document with geocoding matches
     const match = response.body;
   });
+
+"""
+config Object setting various parameters such as config.mode  |config.query etc 
