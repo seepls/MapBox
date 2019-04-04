@@ -1,0 +1,11 @@
+A web mapping library allows to add map to a webpage and define data it contains 
+distinguish Mapbox GL JS from other map libraries
+web apps using Mapbox GL JS, maps are rendered dynamically by 
+combining vector tiles with style rules using JavaScript and WebGL.
+ Rendering maps in the browser rather than on a server makes it possible to change 
+ the map's style and the data it displays dynamically and in response to user interaction.
+    no distinction between baselayers and overlay layers.
+    
+ If you want to add your own data to your Mapbox.js map, you can! Mapbox.js supports a few different formats, including GeoJSON. You can then style your GeoJSON data by adding style properties to the GeoJSON 
+ in the simplestyle specification or by using the built-in setStyle method.
+ 
