@@ -31,6 +31,12 @@
     center: [-122.25948, 37.87221], // Starting position [lng, lat]
     zoom: 12, // Starting zoom level
   });
+  var geocoder = new MapboxGeocoder({ // Initialize the geocoder
+  accessToken: mapboxgl.accessToken, // Set the access token
+  });
+
+  // Add the geocoder to the map
+  map.addControl(geocoder);
  </script>
 </body>
 </html>
