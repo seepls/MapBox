@@ -1,0 +1,8 @@
+To add custom data to your map, you can upload your own data by create datasets.
+f you have created or imported a dataset, you can export your dataset to a tileset right in Mapbox Studio and use it in the
+Mapbox Studio style editor like you would any other tileset.
+
+create Dataset : 
+dataset is an editable collection of GeoJSON. 
+can use the dataset editor in Mapbox Studio to import, create, and edit GeoJSON point, line, 
+and polygon features and their properties.
